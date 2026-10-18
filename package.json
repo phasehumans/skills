@@ -5,11 +5,23 @@
   "keywords": [
     "december",
     "skills",
+    "agent-skills",
     "ai-agent",
     "claude-code",
     "antigravity",
     "coding-agent"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "bun test"
+  },
   "author": "Phase Humans",
   "license": "MIT",
   "repository": {
