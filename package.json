@@ -1,0 +1,19 @@
+{
+  "name": "@phasehumans/skills",
+  "version": "1.0.0",
+  "description": "Disciplined software engineering playbooks and agent skills for December, Claude Code, and Antigravity",
+  "keywords": [
+    "december",
+    "skills",
+    "ai-agent",
+    "claude-code",
+    "antigravity",
+    "coding-agent"
+  ],
+  "author": "Phase Humans",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phasehumans/skills.git"
+  }
+}
