@@ -1,7 +1,8 @@
 {
-  "name": "@phasehumans/skills",
+  "name": "@trydecember/skills",
   "version": "1.0.0",
   "description": "Disciplined software engineering playbooks and agent skills for December, Claude Code, and Antigravity",
+  "homepage": "https://trydecember.com",
   "keywords": [
     "december",
     "skills",
@@ -22,7 +23,7 @@
   "scripts": {
     "test": "bun test"
   },
-  "author": "Phase Humans",
+  "author": "Phase Humans <dev.chaitanyasonawane@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",

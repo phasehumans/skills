@@ -1,6 +1,9 @@
 # December Skills & Playbooks
 
-Official collection of disciplined software engineering playbooks and agent skills for [December](https://github.com/phasehumans/december), Claude Code, and Google Antigravity.
+[![npm version](https://img.shields.io/npm/v/@trydecember/skills.svg)](https://www.npmjs.com/package/@trydecember/skills)
+[![skills.sh](https://skills.sh/b/phasehumans/skills)](https://skills.sh/phasehumans/skills)
+
+Official collection of disciplined software engineering playbooks and agent skills for [December](https://github.com/phasehumans/december) ([@trydecember/cli](https://www.npmjs.com/package/@trydecember/cli)), Claude Code, and Google Antigravity.
 
 Inspired by [Matt Pocock's skills](https://github.com/mattpocock/skills), this repository replaces fragile, monolithic system prompts and hardcoded CLI commands with modular, human-in-the-loop markdown runbooks.
 
@@ -31,7 +34,7 @@ Inspired by [Matt Pocock's skills](https://github.com/mattpocock/skills), this r
 
 ## Installation
 
-### Using December CLI
+### 1. Using December CLI
 ```bash
 # Install globally (~/.december/skills)
 december skill add phasehumans/skills --global
@@ -40,9 +43,19 @@ december skill add phasehumans/skills --global
 december skill add phasehumans/skills
 ```
 
-### Using Vercel Skills CLI
+### 2. Using Vercel Skills CLI (Universal)
 ```bash
+# Works across Claude Code, Cursor, Codex, Antigravity, and December
 npx skills add phasehumans/skills
+```
+
+### 3. Using NPM Package
+```bash
+# Install as dev dependency
+npm i -D @trydecember/skills
+
+# Sync into your agent's directory
+npx skills experimental_sync
 ```
 
 ---
