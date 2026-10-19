@@ -1,19 +1,14 @@
 {
   "name": "@trydecember/skills",
-  "version": "1.0.1",
-  "description": "a (so much) better skill set for coding agents.",
+  "version": "1.0.2",
+  "description": "skills for coding agent.",
   "homepage": "https://trydecember.com/docs/skills",
   "bugs": {
     "url": "https://github.com/phasehumans/skills/issues"
   },
   "keywords": [
     "december",
-    "skills",
-    "agent-skills",
-    "ai-agent",
-    "claude-code",
-    "antigravity",
-    "coding-agent"
+    "skills"
   ],
   "publishConfig": {
     "access": "public"
@@ -26,7 +21,7 @@
   "scripts": {
     "test": "bun test"
   },
-  "author": "Phase Humans <team@trydecember.com>",
+  "author": "Chaitanya Sonawane <team@trydecember.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
